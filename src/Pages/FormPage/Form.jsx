@@ -35,7 +35,6 @@ const Form = () => {
     if (reason === "clickaway") {
       return;
     }
-
     setSnackBarOpen(false);
   };
   function SlideTransition(props) {
@@ -43,17 +42,7 @@ const Form = () => {
   }
 
   return (
-    <Container
-      fixed
-      sx={{
-        [MUITheme.breakpoints.down("md")]: {
-          width: "70%",
-          padding: 0,
-          marginLeft: 0,
-          marginRight: 0,
-        },
-      }}
-    >
+    <Container fixed>
       <Header title="CREATE USER" subTitle="Create a New User Profile" />
       <Box
         component="form"
@@ -145,7 +134,7 @@ const Form = () => {
           create new user
         </Button>
       </Box>
-      <Box sx={{ width: 500 }}>
+      <Box sx={{ width: 340 }}>
         <Snackbar
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
           open={snackBarOpen}
