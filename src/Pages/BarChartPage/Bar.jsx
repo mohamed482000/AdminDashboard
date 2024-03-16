@@ -103,7 +103,6 @@ const Bar = ({ isDashBoard = false }) => {
           },
         }}
         data={data}
-        width={isDashBoard ? 560 : 900}
         indexBy="year"
         keys={["Spain", "France", "Germany"]}
         height={isDashBoard ? 440 : 455}
