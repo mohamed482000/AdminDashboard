@@ -105,6 +105,7 @@ const Bar = ({ isDashBoard = false }) => {
         data={data}
         indexBy="year"
         keys={["Spain", "France", "Germany"]}
+        height={isDashBoard ? 440 : 455}
         margin={
           isDashBoard
             ? { top: 30, right: 95, bottom: 190, left: 40 }
