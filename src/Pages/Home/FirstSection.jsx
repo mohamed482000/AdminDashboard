@@ -29,7 +29,7 @@ const FirstSection = () => {
           data={data2}
           scheme={"category10"}
           numberOf="431,225"
-          cartTitle="Sales obtained"
+          cartTitle="Sales obtainedddd"
           Icon={
             <PointOfSaleIcon
               sx={{ fontSize: "23px", color: MUITheme.palette.secondary.main }}
